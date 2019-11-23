@@ -12,13 +12,13 @@ function App() {
   async function getEvents() {
     const response = await fetch('https://api.github.com/events');
     const events = await response.json();
-    setEvents(events);
+    // setEvents(events);
   }
 
   return (
     <div className="App">
       <h1>Karl Coelho</h1>
-      <p>I'm a software engineer and student.</p>
+      <p>Software engineer and student.</p>
 
       <div className="links">
         <a href="https://github.com/karlcoelho">Github</a> | &nbsp;
